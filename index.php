@@ -1,6 +1,6 @@
 
 <?php
-get_header();
+require "header.php";
 
-get_footer();
+require "footer.php";
 ?>
