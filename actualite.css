@@ -1,0 +1,44 @@
+.mainactu{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artactu{
+    background-color: #326d8f;
+    color: white;
+    max-width: 28%;
+    padding: 0;
+    margin:50px 25px 50px 25px;
+    border-radius: 15px;
+    box-shadow: black 0px 5px 5px;
+}
+
+.titreimage{
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.titreimage h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    padding: 20px;
+    border-radius: 15px 0px 0px 0px;
+    width: 30%;     
+    height: 200px;
+}
+
+.textactu{
+padding: 20px;
+text-align: justify;
+}
+
+.textactu h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+}

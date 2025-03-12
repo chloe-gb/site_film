@@ -1,0 +1,56 @@
+h1 {
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.aquila-content {
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.divapropos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left : 150px;
+    margin-right : 150px;
+    border: 1px solid #326d8f;
+    border-radius: 5px;
+    background-color: #326d8f;
+    color: white;
+}
+
+.divapropos img{
+    width: 50%;
+    height: auto;
+    padding : 50px;
+}
+
+.textapropos{
+    align-items: flex-start;
+    display : flex;
+    flex-direction: column;
+    padding : 50px;
+}
+
+.textapropos p{
+    text-align: left;
+}
+
+.introapropos{
+    padding-left : 200px;
+    padding-right : 200px;
+    text-align: justify;
+}
+
+.derniereclass{
+    margin-bottom : 50px;
+}
+
+.textapropos h2{
+    margin-bottom : 25px;
+}
