@@ -6,6 +6,14 @@
     flex-wrap: wrap;
 }
 
+.actu1{
+    text-align: center;
+}
+
+.actu1 :hover{
+    color:#326d8f;
+}
+
 .artactu{
     background-color: #326d8f;
     color: white;

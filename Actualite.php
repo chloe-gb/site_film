@@ -1,5 +1,7 @@
 <?php require_once("header.php"); ?>
 
+<h1 class="actu1">Actualités</h1>
+
 <main class="mainactu">
     <article class="artactu">
         <div>

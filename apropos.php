@@ -2,7 +2,7 @@
 <main class="aquila-container">
     <section class="aquila-content">
 
-        <h1>À propos d'Aquila</h1>
+        <h1 class="apropos1">À propos d'Aquila</h1>
         <br></br>
         <br></br>
         <div class="introapropos">
@@ -22,6 +22,30 @@
             </p>
 
         </div>
+        <div class="divapropos">
+        <div id="map-container"></div>
+            <div class="textapropos">
+                <h2>Ou sommes nous ?</h2>
+                <p>
+                    🎬 Bienvenue à Cannes, Cœur du Cinéma Français
+
+                    Notre siège est fièrement situé à Cannes, ville emblématique du sud de la France, mondialement
+                    connue pour son Festival International du Film.
+
+                    Cannes incarne l'élégance et le prestige du 7ᵉ art. Depuis des décennies, elle accueille les plus
+                    grandes stars, réalisateurs et cinéphiles du monde entier. Cette atmosphère cinématographique unique
+                    inspire notre plateforme de streaming, dédiée à la diversité culturelle et aux récits engageants.
+
+                    Enracinée dans cette ville chargée d’histoire et de créativité, notre équipe s’engage à vous offrir
+                    une expérience de divertissement de qualité, accessible à tous.
+
+                    Avec Aquila, vivez la magie du cinéma où que vous soyez. 🎥🌍
+                </p>
+            </div>
+
+            
+        </div>
+
         <br></br><br></br>
         <div class="divapropos">
             <div class="textapropos">
@@ -128,6 +152,8 @@
                 <img src="IMG/apropos5.png" alt="image salon">
             </div>
         </div>
+
+
     </section>
 </main>
 <?php

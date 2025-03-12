@@ -78,10 +78,6 @@ input:checked~label {
   transition: stroke 0.25s ease-in-out;
 }
 
-.burger g:hover {
-  stroke: darken(#ffffff, 20%);
-}
-
 input:checked~label .burger {
   opacity: 0;
 }

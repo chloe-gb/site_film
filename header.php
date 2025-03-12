@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="./apropos.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="actualite.css">
+    <link rel="stylesheet" href="avis.css" />
+    <link rel="stylesheet" href="filmographie.css">
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="contact.css" />
+    <script src="contact.js" defer></script>
+    <script src="avis.js" defer></script>
+    <!-- Leaflet.js pour la carte -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Lien vers le script JS (important pour la gestion de la carte) -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="scriptapropos.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -35,22 +47,22 @@
                 <h1 class="titre">Aquila</h1>
                 <hr style="width:100vw;">
                 </hr>
-                
-                    <div><a class="a" href="index.php">Home</a></div>
-                
-                <a class="a"  href="filmographie.php">
+
+                <div><a class="a" href="accueil.php">Home</a></div>
+
+                <a class="a" href="filmographie.php">
                     <div>Filmographie</div>
                 </a>
-                <a class="a"  href="actualite.php">
+                <a class="a" href="actualite.php">
                     <div>Actualités</div>
                 </a>
-                <a class="a"  href="apropos.php">
+                <a class="a" href="apropos.php">
                     <div>A propos</div>
                 </a>
-                <a class="a"  href="avis.php">
+                <a class="a" href="avis.php">
                     <div>Avis</div>
                 </a>
-                <a class="a"  href="contact.php">
+                <a class="a" href="contact.php">
                     <div>Contact</div>
                 </a>
             </div>
