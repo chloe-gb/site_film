@@ -97,7 +97,6 @@ input:checked~label .burger {
   top: 24px;
   left: 0;
   cursor: pointer;
-  opacity: 0;
 }
 
 .close g:hover {
@@ -135,15 +134,18 @@ input:checked~label .close {
   width: 100vw;
   height: 100vh;
   background-color: #00436a;
-  transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), z-index 0s 0.8s;
   color: #ffffff;
   font-size: 24px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  z-index: -1; /* Masqué par défaut */
 }
 
-input:checked~.menu {
+input:checked ~ .menu {
   opacity: 1;
+  z-index: 10; /* Passe devant */
+  transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), z-index 0s; /* Enlève le délai pour z-index */
 }
 
 .menu div {
