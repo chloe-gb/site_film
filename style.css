@@ -110,11 +110,11 @@ input:checked~label .burger {
 }
 
 .close line {
-  transform-origin: 0%;
+  transform-origin: 0%; /*etat initial*/
 }
 
 .close g {
-  transform: rotateZ(45deg);
+  transform: rotateZ(45deg); /*au clic rotation de 45 °*/
   transform-origin: 50%;
 }
 

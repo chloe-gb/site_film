@@ -22,7 +22,12 @@ h1 {
     background-color: #326d8f;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 27px;
+    transition: 0.3s;
     color: white;
+}
+
+.divapropos:hover{
+    box-shadow: 10px 10px 20px black;
 }
 
 .divapropos img{
@@ -30,6 +35,11 @@ h1 {
     height: auto;
     margin : 50px;
     border-radius: 15px;
+    transition: 0.3s;
+}
+
+.divapropos img:hover, #map-container:hover{
+    transform: scale(1.1);
 }
 
 .apropos1{    
@@ -50,6 +60,11 @@ h1 {
     text-align: left;
 }
 
+.textapropos h2:hover{
+    padding-left: 30px;
+    color: #88a2b1;
+}
+
 .introapropos{
     padding-left : 200px;
     padding-right : 200px;
@@ -62,6 +77,7 @@ h1 {
 
 .textapropos h2{
     margin-bottom : 25px;
+    transition: 0.3s;
 }
 
 #map-container {
@@ -70,6 +86,7 @@ h1 {
     border-radius: 10px;
     margin-left: 50px;
     margin-top: 50px;
+    transition: 0.3s;
     margin-bottom: 50px;
     overflow: hidden;
     border: 3px solid #00436a;
